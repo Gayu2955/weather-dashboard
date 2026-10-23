@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ffd06b127d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main>
+            <header class="weather-container">
+                <h1>Weather Dashboard</h1>
+                <p>Check the weather in your city</p>
+            </header>
+
+            <section class="search-box">
+                <input type="search" id="city-input" placeholder="Enter city name....">
+                <button id="search-btn">Search</button>
+            </section>
+
+            <section class="weather-details">
+                <div class="weather-card">
+                    <h4>🌡️ Temperature</h4>
+                    <p id="temperature">-- °C</p>
+                </div>
+
+                <div class="weather-card">
+                    <h4>💧 Humidity</h4>
+                    <p id="humidity">-- %</p>
+                </div>
+
+                <div class="weather-card">
+                    <h4>💨 Wind Speed</h4>
+                    <p id="wind-speed">-- km/h</p>
+                </div>
+            </section>
+
+            <section class="current-weather">
+                <h2 id="city-name">Search for a city</h2>
+                <div id="weather-icon">🌤️</div>
+                <p id="weather-condition">Weather details will appear here</p>
+            </section>
+
+        </main>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
